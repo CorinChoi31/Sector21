@@ -1,0 +1,1233 @@
+Starting 0 4
+Searching 1 4
+Searching 1 3
+Searching 0 3
+Searching 0 5
+Searching 1 5
+Searching 1 3
+Searching 1 2
+Searching 0 2
+Searching 0 4
+Searching 1 4
+Searching 2 2
+Searching 2 1
+Searching 1 1
+Searching 0 1
+Searching 0 2
+Searching 0 3
+Searching 1 3
+Searching 2 3
+Searching 1 2
+Searching 1 1
+Searching 0 1
+Searching 0 3
+Searching 1 3
+Searching 3 1
+Searching 3 0
+Searching 2 0
+Searching 1 0
+Searching 1 1
+Searching 1 2
+Searching 2 2
+Searching 3 2
+Searching 1 1
+Searching 1 0
+Searching 0 0
+Searching 0 2
+Searching 1 2
+Searching 2 1
+Searching 2 0
+Searching 1 0
+Searching 0 0
+Searching 0 1
+Searching 0 2
+Searching 1 2
+Searching 2 2
+Searching 1 0
+Searching 0 1
+Searching 1 1
+Searching 2 0
+Searching 0 0
+Searching 0 1
+Searching 1 1
+Searching 2 1
+Searching 3 0
+Searching 1 0
+Searching 1 1
+Searching 2 1
+Searching 3 1
+Searching 4 0
+Searching 2 0
+Searching 2 1
+Searching 3 1
+Searching 4 1
+Searching 2 4
+Searching 2 3
+Searching 1 3
+Searching 0 3
+Searching 0 4
+Searching 0 5
+Searching 1 5
+Searching 2 5
+Searching 5 1
+Searching 5 0
+Searching 4 0
+Searching 3 0
+Searching 3 1
+Searching 3 2
+Searching 4 2
+Searching 5 2
+Searching 3 5
+Searching 3 4
+Searching 2 4
+Searching 1 4
+Searching 1 5
+Searching 1 6
+Searching 2 6
+Searching 3 6
+Searching 6 2
+Searching 6 1
+Searching 5 1
+Searching 4 1
+Searching 4 2
+Searching 4 3
+Searching 5 3
+Searching 6 3
+Searching 4 6
+Searching 4 5
+Searching 3 5
+Searching 2 5
+Searching 2 6
+Searching 2 7
+Searching 3 7
+Searching 4 7
+Searching 7 3
+Searching 7 2
+Searching 6 2
+Searching 5 2
+Searching 5 3
+Searching 5 4
+Searching 6 4
+Searching 7 4
+Searching 5 7
+Searching 5 6
+Searching 4 6
+Searching 3 6
+Searching 3 7
+Searching 3 8
+Searching 4 8
+Searching 5 8
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 4
+Searching 8 3
+Searching 7 3
+Searching 6 3
+Searching 6 4
+Searching 6 5
+Searching 7 5
+Searching 8 5
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 8 3
+Searching 7 3
+Searching 7 4
+Searching 7 5
+Searching 8 5
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 8 2
+Searching 7 2
+Searching 7 3
+Searching 7 4
+Searching 8 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 7 5
+Searching 7 4
+Searching 6 4
+Searching 5 4
+Searching 5 5
+Path Success 0 4
+Starting 0 8
+Searching 1 8
+Searching 1 7
+Searching 0 7
+Searching 0 9
+Grid 2, index out of bounds writing [0,9] - size is [9,9]
+Searching 1 9
+Grid 2, index out of bounds writing [1,9] - size is [9,9]
+Searching 2 8
+Searching 2 7
+Searching 1 7
+Searching 0 7
+Searching 0 8
+Searching 0 9
+Grid 2, index out of bounds writing [0,9] - size is [9,9]
+Searching 1 9
+Grid 2, index out of bounds writing [1,9] - size is [9,9]
+Searching 2 9
+Grid 2, index out of bounds writing [2,9] - size is [9,9]
+Searching 1 7
+Searching 1 6
+Searching 0 6
+Searching 0 8
+Searching 1 8
+Searching 3 7
+Searching 3 6
+Searching 2 6
+Searching 1 6
+Searching 1 7
+Searching 1 8
+Searching 2 8
+Searching 3 8
+Searching 1 6
+Searching 1 5
+Searching 0 5
+Searching 0 7
+Searching 1 7
+Searching 4 8
+Searching 4 7
+Searching 3 7
+Searching 2 7
+Searching 2 8
+Searching 2 9
+Grid 2, index out of bounds writing [2,9] - size is [9,9]
+Searching 3 9
+Grid 2, index out of bounds writing [3,9] - size is [9,9]
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 1 5
+Searching 1 4
+Searching 0 4
+Searching 0 6
+Searching 1 6
+Searching 5 7
+Searching 5 6
+Searching 4 6
+Searching 3 6
+Searching 3 7
+Searching 3 8
+Searching 4 8
+Searching 5 8
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 1 4
+Searching 1 3
+Searching 0 3
+Searching 0 5
+Searching 1 5
+Searching 1 3
+Searching 1 2
+Searching 0 2
+Searching 0 4
+Searching 1 4
+Searching 2 2
+Searching 2 1
+Searching 1 1
+Searching 0 1
+Searching 0 2
+Searching 0 3
+Searching 1 3
+Searching 2 3
+Searching 1 2
+Searching 1 1
+Searching 0 1
+Searching 0 3
+Searching 1 3
+Searching 3 1
+Searching 3 0
+Searching 2 0
+Searching 1 0
+Searching 1 1
+Searching 1 2
+Searching 2 2
+Searching 3 2
+Searching 1 1
+Searching 1 0
+Searching 0 0
+Searching 0 2
+Searching 1 2
+Searching 2 1
+Searching 2 0
+Searching 1 0
+Searching 0 0
+Searching 0 1
+Searching 0 2
+Searching 1 2
+Searching 2 2
+Searching 1 0
+Searching 0 1
+Searching 1 1
+Searching 2 0
+Searching 0 0
+Searching 0 1
+Searching 1 1
+Searching 2 1
+Searching 3 0
+Searching 1 0
+Searching 1 1
+Searching 2 1
+Searching 3 1
+Searching 4 0
+Searching 2 0
+Searching 2 1
+Searching 3 1
+Searching 4 1
+Searching 8 4
+Searching 8 3
+Searching 7 3
+Searching 6 3
+Searching 6 4
+Searching 6 5
+Searching 7 5
+Searching 8 5
+Searching 5 1
+Searching 5 0
+Searching 4 0
+Searching 3 0
+Searching 3 1
+Searching 3 2
+Searching 4 2
+Searching 5 2
+Searching 7 4
+Searching 7 3
+Searching 6 3
+Searching 5 3
+Searching 5 4
+Searching 5 5
+Path Success 0 8
+Starting 4 0
+Searching 5 0
+Searching 3 0
+Searching 3 1
+Searching 4 1
+Searching 5 1
+Searching 4 0
+Searching 2 0
+Searching 2 1
+Searching 3 1
+Searching 4 1
+Searching 3 0
+Searching 1 0
+Searching 1 1
+Searching 2 1
+Searching 3 1
+Searching 3 1
+Searching 3 0
+Searching 2 0
+Searching 1 0
+Searching 1 1
+Searching 1 2
+Searching 2 2
+Searching 3 2
+Searching 2 1
+Searching 2 0
+Searching 1 0
+Searching 0 0
+Searching 0 1
+Searching 0 2
+Searching 1 2
+Searching 2 2
+Searching 2 0
+Searching 0 0
+Searching 0 1
+Searching 1 1
+Searching 2 1
+Searching 1 2
+Searching 1 1
+Searching 0 1
+Searching 0 3
+Searching 1 3
+Searching 1 1
+Searching 1 0
+Searching 0 0
+Searching 0 2
+Searching 1 2
+Searching 2 2
+Searching 2 1
+Searching 1 1
+Searching 0 1
+Searching 0 2
+Searching 0 3
+Searching 1 3
+Searching 2 3
+Searching 1 3
+Searching 1 2
+Searching 0 2
+Searching 0 4
+Searching 1 4
+Searching 1 0
+Searching 0 1
+Searching 1 1
+Searching 6 0
+Searching 4 0
+Searching 4 1
+Searching 5 1
+Searching 6 1
+Searching 1 4
+Searching 1 3
+Searching 0 3
+Searching 0 5
+Searching 1 5
+Searching 7 1
+Searching 7 0
+Searching 6 0
+Searching 5 0
+Searching 5 1
+Searching 5 2
+Searching 6 2
+Searching 7 2
+Searching 2 5
+Searching 2 4
+Searching 1 4
+Searching 0 4
+Searching 0 5
+Searching 0 6
+Searching 1 6
+Searching 2 6
+Searching 8 2
+Searching 8 1
+Searching 7 1
+Searching 6 1
+Searching 6 2
+Searching 6 3
+Searching 7 3
+Searching 8 3
+Searching 3 6
+Searching 3 5
+Searching 2 5
+Searching 1 5
+Searching 1 6
+Searching 1 7
+Searching 2 7
+Searching 3 7
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 8 2
+Searching 7 2
+Searching 7 3
+Searching 7 4
+Searching 8 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 4 7
+Searching 4 6
+Searching 3 6
+Searching 2 6
+Searching 2 7
+Searching 2 8
+Searching 3 8
+Searching 4 8
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 8 3
+Searching 7 3
+Searching 7 4
+Searching 7 5
+Searching 8 5
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 5 8
+Searching 5 7
+Searching 4 7
+Searching 3 7
+Searching 3 8
+Searching 3 9
+Grid 2, index out of bounds writing [3,9] - size is [9,9]
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 6
+Searching 6 5
+Searching 5 5
+Path Success 4 0
+Starting 4 8
+Searching 5 8
+Searching 5 7
+Searching 4 7
+Searching 3 7
+Searching 3 8
+Searching 3 9
+Grid 2, index out of bounds writing [3,9] - size is [9,9]
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 4 8
+Searching 4 7
+Searching 3 7
+Searching 2 7
+Searching 2 8
+Searching 2 9
+Grid 2, index out of bounds writing [2,9] - size is [9,9]
+Searching 3 9
+Grid 2, index out of bounds writing [3,9] - size is [9,9]
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 8 4
+Searching 8 3
+Searching 7 3
+Searching 6 3
+Searching 6 4
+Searching 6 5
+Searching 7 5
+Searching 8 5
+Searching 3 8
+Searching 3 7
+Searching 2 7
+Searching 1 7
+Searching 1 8
+Searching 1 9
+Grid 2, index out of bounds writing [1,9] - size is [9,9]
+Searching 2 9
+Grid 2, index out of bounds writing [2,9] - size is [9,9]
+Searching 3 9
+Grid 2, index out of bounds writing [3,9] - size is [9,9]
+Searching 7 4
+Searching 7 3
+Searching 6 3
+Searching 5 3
+Searching 5 4
+Searching 5 5
+Path Success 4 8
+Starting 8 0
+Searching 9 0
+Grid 2, index out of bounds writing [9,0] - size is [9,9]
+Searching 7 0
+Searching 7 1
+Searching 8 1
+Searching 9 1
+Grid 2, index out of bounds writing [9,1] - size is [9,9]
+Searching 8 0
+Searching 6 0
+Searching 6 1
+Searching 7 1
+Searching 8 1
+Searching 9 1
+Grid 2, index out of bounds writing [9,1] - size is [9,9]
+Searching 9 0
+Grid 2, index out of bounds writing [9,0] - size is [9,9]
+Searching 8 0
+Searching 7 0
+Searching 7 1
+Searching 7 2
+Searching 8 2
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 7 1
+Searching 7 0
+Searching 6 0
+Searching 5 0
+Searching 5 1
+Searching 5 2
+Searching 6 2
+Searching 7 2
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 9 1
+Grid 2, index out of bounds writing [9,1] - size is [9,9]
+Searching 8 1
+Searching 7 1
+Searching 7 2
+Searching 7 3
+Searching 8 3
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 7 2
+Searching 7 1
+Searching 6 1
+Searching 5 1
+Searching 5 2
+Searching 5 3
+Searching 6 3
+Searching 7 3
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 8 2
+Searching 7 2
+Searching 7 3
+Searching 7 4
+Searching 8 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 7 3
+Searching 7 2
+Searching 6 2
+Searching 5 2
+Searching 5 3
+Searching 5 4
+Searching 6 4
+Searching 7 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 8 3
+Searching 7 3
+Searching 7 4
+Searching 7 5
+Searching 8 5
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 7 4
+Searching 7 3
+Searching 6 3
+Searching 5 3
+Searching 5 4
+Searching 5 5
+Path Success 8 0
+Starting 8 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 8 3
+Searching 7 3
+Searching 7 4
+Searching 7 5
+Searching 8 5
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 8 4
+Searching 7 4
+Searching 7 5
+Searching 7 6
+Searching 8 6
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 8 5
+Searching 7 5
+Searching 6 5
+Searching 6 6
+Searching 6 7
+Searching 7 7
+Searching 8 7
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 9 5
+Grid 2, index out of bounds writing [9,5] - size is [9,9]
+Searching 8 5
+Searching 7 5
+Searching 7 6
+Searching 7 7
+Searching 8 7
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 9 6
+Grid 2, index out of bounds writing [9,6] - size is [9,9]
+Searching 8 6
+Searching 7 6
+Searching 7 7
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 8 7
+Searching 8 6
+Searching 7 6
+Searching 6 6
+Searching 6 7
+Searching 6 8
+Searching 7 8
+Searching 8 8
+Searching 9 8
+Grid 2, index out of bounds writing [9,8] - size is [9,9]
+Searching 9 7
+Grid 2, index out of bounds writing [9,7] - size is [9,9]
+Searching 8 7
+Searching 7 7
+Searching 7 8
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 9 9
+Grid 2, index out of bounds writing [9,9] - size is [9,9]
+Searching 7 8
+Searching 7 7
+Searching 6 7
+Searching 5 7
+Searching 5 8
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 8
+Searching 8 7
+Searching 7 7
+Searching 6 7
+Searching 6 8
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 9
+Grid 2, index out of bounds writing [7,9] - size is [9,9]
+Searching 8 9
+Grid 2, index out of bounds writing [8,9] - size is [9,9]
+Searching 6 8
+Searching 6 7
+Searching 5 7
+Searching 4 7
+Searching 4 8
+Searching 4 9
+Grid 2, index out of bounds writing [4,9] - size is [9,9]
+Searching 5 9
+Grid 2, index out of bounds writing [5,9] - size is [9,9]
+Searching 6 9
+Grid 2, index out of bounds writing [6,9] - size is [9,9]
+Searching 7 7
+Searching 7 6
+Searching 6 6
+Searching 5 6
+Searching 5 7
+Searching 5 8
+Searching 6 8
+Searching 7 8
+Searching 9 3
+Grid 2, index out of bounds writing [9,3] - size is [9,9]
+Searching 9 2
+Grid 2, index out of bounds writing [9,2] - size is [9,9]
+Searching 8 2
+Searching 7 2
+Searching 7 3
+Searching 7 4
+Searching 8 4
+Searching 9 4
+Grid 2, index out of bounds writing [9,4] - size is [9,9]
+Searching 6 6
+Searching 6 5
+Searching 5 5
+Path Success 8 4
