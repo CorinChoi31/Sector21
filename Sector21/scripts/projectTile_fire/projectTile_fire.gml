@@ -12,7 +12,8 @@ function projectTile_fire(argument0, argument1, argument2, argument3, argument4,
 	
 		density = argument4;
 		rotate = argument5;
-	
+		
+		range = argument6;
 		range_dest = argument6;
 		color_dest = argument7;
 	

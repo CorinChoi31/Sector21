@@ -23,9 +23,10 @@ game_center = noone;
 game_tick = 0; game_tick_frame = 0;
 game_score = 0; game_score_soft = 0; game_score_bonus = 0; game_score_center = true;
 
-game_cost = 50; game_cost_soft = 0;
+game_cost = 32; game_cost_soft = 0;
 game_cost_recharge = -1;
-game_cost_recharge_speed = room_speed*2;
+game_cost_recharge_speed = room_speed*1;
+game_cost_recharge_speed_upgrade = -room_speed*0.1;
 
 game_interface_y = [1];
 game_interface_dy = [1];

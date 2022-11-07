@@ -3,14 +3,14 @@ randomize();
 
 global.font = font_add_sprite_ext(FONTV3,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-()",true,8);
 
-display_set_gui_size(room_width,room_height);
+display_set_gui_size(room_width, room_height);
 surface_resize(application_surface, room_width, room_height);
 
-//view_set_wport(view_camera[0],global.display[0]);
-//view_set_hport(view_camera[0],global.display[1]);
+//view_set_wport(view_camera[0],global.display[1]);
+//view_set_hport(view_camera[0],global.display[2]);
 
-//camera_set_view_size(view_camera[0],global.display[0],global.display[1]);
-//camera_set_view_border(view_camera[0],global.display[0]/2,global.display[1]/2);
+camera_set_view_size(view_camera[0],global.display[1],global.display[2]);
+camera_set_view_border(view_camera[0],global.display[1]/2,global.display[2]/2);
 #endregion
 
 #region

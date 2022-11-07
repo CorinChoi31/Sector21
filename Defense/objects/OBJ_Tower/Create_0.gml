@@ -2,16 +2,15 @@
 apply = new Towers(
 	4, c_orange, 
 	15, 32,
-	types.ATTACK_BULLET, types.TARGET_RANDOMS, 1, 1, 1, 0, 12, 
+	types.ATTACK_BULLET, types.TARGET_RANDOMS, 1, 0.33, 4, 0.02, 4, 
 	1, 1,
-	0, 3, 0.5
+	4, 1, 0.5
 );
 
 var _name = variable_struct_get_names(apply);
 var _size = array_length(_name);
 
-for(var _i = 0; _i < _size; _i++)
-{
+for(var _i = 0; _i < _size; _i++) {
 	var __name = _name[_i];
 	variable_instance_set(self, __name, variable_instance_get(apply, __name));
 }

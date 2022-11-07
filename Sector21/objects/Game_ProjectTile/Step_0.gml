@@ -16,7 +16,13 @@ alpha += (alpha_dest-alpha)/step;
 
 if(unit_attack_target = noone)
 {
-	unit_death = true;
+	if(!unit_death)
+	{
+		unit_death = true;
+	
+		if(range[0] <= 0)
+			range[1] *= 2;
+	}
 }
 
 if(unit_ready > 0)

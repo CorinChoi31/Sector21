@@ -1,4 +1,6 @@
-global.display = 0;
+
+
+global.display = [false, room_width, room_height];
 global.displayAuto = false;
 
 if(os_type == os_android)

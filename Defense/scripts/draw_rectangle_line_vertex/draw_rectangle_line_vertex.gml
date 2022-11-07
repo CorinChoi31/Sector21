@@ -15,6 +15,9 @@
 
 function draw_rectangle_line_vertex(_x1, _y1, _x2, _y2, _width, _color1, _color2, _color3, _color4, _alpha1, _alpha2, _alpha3, _alpha4)
 {
+	//_x2 += _width/2;
+	//_y2 += _width/2;
+	
 	var _pos_top_left_x = _x1 + _width;
 	var _pos_top_left_y = _y1 + _width;
 	

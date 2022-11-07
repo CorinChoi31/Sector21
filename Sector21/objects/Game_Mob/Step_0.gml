@@ -43,7 +43,7 @@ if(visible)
 
 if(!unit_ready)
 {
-	var _plus = (global.game.game_enemy_wave/10);
+	var _plus = sqr((global.game.game_enemy_wave)/20);
 	
 	unit_ready = true;
 	
@@ -54,11 +54,11 @@ if(!unit_ready)
 	color_dest = global.mob_info[? string(unit_id)+"."+"color"];
 	
 	unit_health_max = global.mob_info[? string(unit_id)+"."+"health"];
-	unit_health_max += (unit_health_max*_plus);
+	unit_health_max += (unit_health_max*(_plus*0.5));
 	unit_health = unit_health_max;
 	
 	unit_attack_amount = global.mob_info[? string(unit_id)+"."+"damage"];
-	unit_attack_amount += (unit_attack_amount*(_plus*0.25));
+	unit_attack_amount += (unit_attack_amount*(_plus*0.05));
 	
 	unit_speed_max = global.mob_info[? string(unit_id)+"."+"speed"];
 	unit_speed_accel = global.mob_info[? string(unit_id)+"."+"accel"];
@@ -72,7 +72,15 @@ if(!unit_ready)
 		unit_attack_speed = global.mob_info[? string(unit_id)+"."+"skill_speed"];
 		unit_attack_length = global.mob_info[? string(unit_id)+"."+"skill_range"]*global.grid_length;
 		unit_skill_amount = global.mob_info[? string(unit_id)+"."+"skill_amount"];
-		unit_skill_amount += (unit_skill_amount*(_plus*0.75));
+		switch(unit_skill_id)
+		{
+			default:
+				unit_skill_amount += (unit_skill_amount*(_plus*0.5));
+				break;
+			case enemy.effect_defense_up:
+				unit_skill_amount += (unit_skill_amount*(_plus*0.1));
+				break;
+		}
 		unit_skill_length = global.mob_info[? string(unit_id)+"."+"skill_length"];
 	}
 	

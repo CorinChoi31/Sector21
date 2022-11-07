@@ -114,6 +114,7 @@ function tower_aim()
 						return i[1] - j[1];
 					}
 					array_sort(_array, _compare);
+					
 					break;
 				case types.TARGET_FARTHEST:
 					var _compare = function(i, j)

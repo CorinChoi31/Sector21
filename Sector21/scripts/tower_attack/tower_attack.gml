@@ -171,12 +171,10 @@ function tower_attack() {
 							{
 								_ins[0] = projectTile_fire(x,y-y_pos,0,_ntarget,density,rotate,[0,range[0]*0.5],color,calc_attack_amount,calc_attack_range,calc_attack_velocity,calc_attack_velocity);
 								_ins[1] = projectTile_fire(x,y-y_pos,0,_ntarget,density,rotate,[0,range[0]*0.5],color,calc_attack_amount,calc_attack_range,calc_attack_velocity,calc_attack_velocity*0.75);
-								_ins[2] = projectTile_fire(x,y-y_pos,0,_ntarget,density,rotate,[0,range[0]*0.5],color,calc_attack_amount,calc_attack_range,calc_attack_velocity,calc_attack_velocity*0.5);
 								if(calc_attack_ignore > 0)
 								{
 									projectTile_effect(_ins[0],effect.damage_dealt_ignore_ratio,calc_attack_amount*calc_attack_ignore,1,id);
 									projectTile_effect(_ins[1],effect.damage_dealt_ignore_ratio,calc_attack_amount*calc_attack_ignore,1,id);
-									projectTile_effect(_ins[2],effect.damage_dealt_ignore_ratio,calc_attack_amount*calc_attack_ignore,1,id);
 								}
 							}
 							break;
@@ -204,6 +202,7 @@ function tower_attack() {
 							}
 						
 							collision_circle_list(x,y,calc_attack_length,Game_Mob,true,false,unit_collision,true);
+						
 							var _ntarget = noone;
 							var _ins = noone;
 							for(var i = 0; i < ds_list_size(unit_collision); i++)
@@ -215,11 +214,12 @@ function tower_attack() {
 									break;
 								}
 							}
+	
 							ds_list_clear(unit_collision);
 						
 							if(_ntarget != noone)
 							{
-								_ins = projectTile_fire(x,y-y_pos,0,unit_attack_target,density,rotate,[range[0]*0.75,range[0]],color,calc_attack_amount,calc_attack_range,calc_attack_velocity,calc_attack_velocity);
+								_ins = projectTile_fire(x,y-y_pos,0,_ntarget,density,rotate,[range[0]*0.75,range[0]],color,calc_attack_amount,calc_attack_range,calc_attack_velocity,calc_attack_velocity);
 								if(calc_attack_ignore > 0)
 								{
 									projectTile_effect(_ins,effect.damage_dealt_ignore_ratio,calc_attack_amount*calc_attack_ignore,1,id);
@@ -246,7 +246,7 @@ function tower_attack() {
 								{
 									with(_ins)
 									{
-										mob_effect_add(id,effect.ratio_recive_increase,other.calc_attack_amount,other.calc_attack_speed,other.id);
+										mob_effect_add(id,effect.ratio_recive_increase,other.calc_attack_amount,other.calc_attack_speed*room_speed,other.id);
 										draw_effect_bloom(x,y,x,y,density,[0,0],range,c_white,other.color,1,0,room_speed/4,direction);
 									}
 								}
@@ -265,7 +265,7 @@ function tower_attack() {
 								{
 									with(_ins)
 									{
-										mob_effect_add(id,effect.damage_dealt_ignore_ratio,other.calc_attack_amount,other.calc_attack_speed,other.id);
+										mob_effect_add(id,effect.damage_dealt_ignore_ratio,other.calc_attack_amount,1,other.id);
 										draw_effect_bloom(x,y,x,y,density,[0,0],range,c_white,other.color,1,0,room_speed/4,direction);
 									}
 								}
@@ -284,7 +284,7 @@ function tower_attack() {
 								{
 									with(_ins)
 									{
-										mob_effect_add(id,effect.clear_increase,other.calc_attack_amount,other.calc_attack_speed,other.id);
+										mob_effect_add(id,effect.clear_increase,other.calc_attack_amount,other.calc_attack_speed*room_speed,other.id);
 										draw_effect_bloom(x,y,x,y,density,[0,0],range,c_white,other.color,1,0,room_speed/4,direction);
 									}
 								}
@@ -303,7 +303,7 @@ function tower_attack() {
 									{
 										if(calc_speed_max < unit_speed_max or ds_list_find_index(unit_effect_id, effect.movement_stun) != -1)
 										{
-											mob_effect_add(id,effect.clear_increase,other.calc_attack_amount,other.calc_attack_speed,other.id);
+											mob_effect_add(id,effect.clear_increase,other.calc_attack_amount,other.calc_attack_speed*room_speed,other.id);
 											draw_effect_bloom(x,y,x,y,density,[0,0],range,c_white,other.color,1,0,room_speed/4,direction);
 										
 											_run = true;
@@ -323,8 +323,8 @@ function tower_attack() {
 							}
 							break;
 						case 4:
-							_ins = projectTile_fire(x,y-y_pos,0,unit_attack_target,density,rotate,[range[0]*0.75,range[0]],color,0,calc_attack_range,calc_attack_velocity,calc_attack_velocity);
-							projectTile_effect(_ins,effect.ratio_recive_increase,calc_attack_amount,calc_attack_speed,id);
+							_ins = projectTile_fire(x,y-y_pos,0,unit_attack_target,density,rotate,[0,range[0]*0.5],color,0,calc_attack_range,calc_attack_velocity,calc_attack_velocity);
+							projectTile_effect(_ins,effect.ratio_recive_increase,calc_attack_amount,calc_attack_speed*room_speed,id);
 							break;
 					}
 				#endregion
@@ -393,7 +393,7 @@ function tower_attack() {
 											mob_damage_add(id,damage.dealt_ignore_ratio,other.calc_attack_ignore*other.calc_attack_amount);
 										}
 									
-										mob_effect_add(id,effect.movement_stun,0,room_speed*(1.75+0.25*other.unit_upgraded),other.id);
+										mob_effect_add(id,effect.movement_stun,0,room_speed*(0.5+0.25*other.unit_upgraded),other.id);
 										draw_effect_bloom(x,y,x,y,density,[0,0],range,c_white,other.color,1,0,room_speed/4,direction);
 									}
 								}

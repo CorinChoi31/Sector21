@@ -1,5 +1,5 @@
-draw_circle_vertex(x, y, 180, density/2, unit_size, unit_size*0.2, color, alpha, 0, false);
-draw_circle_vertex(x, y, 180, density/2, unit_size, unit_size*0.2, color, alpha*0.5, 180, false);
+draw_circle_vertex(x, y, 180, density/2, unit_size, unit_size*0.2, color, alpha, 45, false);
+draw_circle_vertex(x, y, 180, density/2, unit_size, unit_size*0.2, color, alpha*0.5, 225, false);
 
 draw_set_alpha(1);
 /*

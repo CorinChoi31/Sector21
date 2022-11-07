@@ -1,9 +1,9 @@
 #region ENUMs
 enum types
 {
-	MOUSE_LEFT,
-	MOUSE_MIDDLE,
-	MOUSE_RIGHT,
+	MOUSE_LEFT = 0,
+	MOUSE_MIDDLE = 1,
+	MOUSE_RIGHT = 2,
 	
 	ATTACK_BULLET = 0,
 	
@@ -14,6 +14,9 @@ enum types
 	TARGET_DEFENSE_LOW = 4,
 	TARGET_DEFENSE_HIGH = 5,
 	TARGET_RANDOMS = 6,
+    
+    POINT_DEFENSE = 0,
+    POINT_OFFENSE = 1,
 }
 #endregion
 

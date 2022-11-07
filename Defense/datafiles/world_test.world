@@ -1,0 +1,55 @@
+information
+    author
+        Corin Choi
+    modified
+        2022-04-12 19:03:33
+    title
+        test world
+
+definition
+    map
+        W
+            type
+                Block
+            id
+                0
+        E
+            type
+                OffensePoint
+            id
+                0
+        D
+            type
+                DefensePoint
+            id
+                0
+    enemy
+        enemy1
+            type
+                Block
+            id
+                0
+            health
+                100
+            offense
+                1
+            defense
+                1
+            power
+                1
+
+
+map
+    W W W W W W W W
+    W E0 N N N N N W
+    W E1 N N N N N W
+    W E2 N N N N D W
+    W E3 N N N N N W
+    W E4 N N N N N W
+    W W W W W W W W
+
+rule
+    
+
+pattern
+    E

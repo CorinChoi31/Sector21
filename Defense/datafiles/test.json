@@ -1,0 +1,88 @@
+{
+	"information": {
+		"id": "1-1",
+		"created": "created date",
+		"modified": "modified date",
+		"title": "title",
+		"subtitle": "subtitle",
+		"description": "description",
+		"difficulty": "difficulty",
+		"author": "author"
+	},
+	"map": "W W W W W W W W\nW E N N N N N W\nW N W W N N N W\nW N N N N N N W\nW W W W W W D W",
+	"definition": {
+		"map": {
+			"B": {
+				"type": "blank",
+				"id": "0"
+			},
+			"N": {
+				"type": "ground",
+				"id": "0"
+			},
+			"D": {
+				"type": "defense point",
+				"id": "0"
+			},
+			"W": {
+				"type": "block",
+				"id": "0"
+			},
+			"E": {
+				"type": "offense point",
+				"id": "0"
+			}
+		},
+		"enemy": {
+			"enemy-1": {
+				"type": "instance",
+				"id": "0",
+				"scale": 1.0,
+				"property": {
+					"something property": ""
+				}
+			},
+			"group-1": {
+				"type": "group",
+				"id": ["0", "0"],
+				"scale": [1.0, 0.75],
+				"property": [
+					{
+						"id: 1's property": ""
+					},
+					{
+
+					}
+				]
+			}
+		},
+		"movement": {
+			"direction": [
+				0.0,
+				45.0,
+				90.0,
+				135.0,
+				180.0,
+				225.0,
+				270.0,
+				315.0
+			],
+			"cost": [
+				10,
+				14,
+				10,
+				14,
+				10,
+				14,
+				10,
+				14,
+				10
+			]
+		}
+	},
+	"rule": {
+	},
+	"pattern": {
+		"spawn": []
+	}
+}

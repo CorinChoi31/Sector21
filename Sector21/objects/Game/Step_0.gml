@@ -144,7 +144,7 @@ else
 						_x = WIDTH_2; _y = HEIGHT_16-_h*4*game_interface_dy[1];
 						if(point_in_rectangle(mouse_x,mouse_y,_x-_w,_y-_h,_x+_w,_y+_h))
 						{
-							var _v = floor(((game_enemy_wait+room_speed/2)/room_speed)/2);
+							var _v = ceil(((game_enemy_wait+room_speed/2)/room_speed)/2);
 							game_score_bonus += _v;
 							
 							draw_set_font(GodoM_R16);
@@ -246,7 +246,7 @@ else
 		
 				if(game_cost_recharge <= 0)
 				{
-					game_cost_recharge += game_cost_recharge_speed-game_center.unit_upgrade_cost*(game_cost_recharge_speed/7);
+					game_cost_recharge += game_cost_recharge_speed+game_center.unit_upgrade_cost*game_cost_recharge_speed_upgrade;
 				}
 				else
 				{

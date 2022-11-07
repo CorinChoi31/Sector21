@@ -27,8 +27,8 @@ function mob_effect() {
 	
 		switch(_id)
 		{
-			case noone:
 			default:
+			case noone:
 				ds_list_delete(unit_effect_id,i);
 				ds_list_delete(unit_effect_amount,i);
 				ds_list_delete(unit_effect_amount_origin,i);
@@ -52,7 +52,7 @@ function mob_effect() {
 					}
 				
 					draw_set_font(GodoM_R12);
-					draw_notify(x,y+16,"강화 효과 해제",GodoM_R12,c_yellow,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,-16,id);
+					//draw_notify(x,y+16,"강화 효과 해제",GodoM_R12,c_yellow,0.75,0,0,c_white,0.1,tick_origin/2,step,0,-16,id);
 					
 					unit_effect_id[|i] = noone;
 				}
@@ -60,7 +60,7 @@ function mob_effect() {
 		
 			case effect.health_heal:
 				draw_set_font(GodoM_R16);
-				draw_notify(x,y+16,"회복",GodoM_R16,c_lime,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+				//draw_notify(x,y+16,"회복",GodoM_R16,c_lime,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 			
 				unit_health = min(unit_health_max,unit_health+amount)
 			
@@ -73,7 +73,7 @@ function mob_effect() {
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"가속",GodoM_R16,c_lime,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"가속",GodoM_R16,c_lime,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -87,13 +87,14 @@ function mob_effect() {
 					unit_effect_id[|i] = noone;
 				}
 				break;
+				
 			case effect.movement_speed_increase_soft:
 				if(unit_effect_tick[|i] >= 0)
 				{
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"가속",GodoM_R16,c_lime,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"가속",GodoM_R16,c_lime,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -115,7 +116,7 @@ function mob_effect() {
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"둔화",GodoM_R16,c_yellow,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"둔화",GodoM_R16,c_yellow,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -128,13 +129,15 @@ function mob_effect() {
 				{
 					unit_effect_id[|i] = noone;
 				}
+				break;
+				
 			case effect.movement_speed_decrease_soft:
 				if(unit_effect_tick[|i] >= 0)
 				{
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"둔화",GodoM_R16,c_yellow,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"둔화",GodoM_R16,c_yellow,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -149,13 +152,14 @@ function mob_effect() {
 					unit_effect_id[|i] = noone;
 				}
 				break;
+				
 			case effect.movement_stun:
 				if(unit_effect_tick[|i] >= 0)
 				{
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"기절",GodoM_R16,c_yellow,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"기절",GodoM_R16,c_yellow,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -173,12 +177,12 @@ function mob_effect() {
 				break;
 			
 			case effect.ratio_recive_increase:
-				if(unit_effect_tick[|i] > 0)
+				if(unit_effect_tick[|i] >= 0)
 				{
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"방어력 감소",GodoM_R16,c_yellow,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"방어력 감소",GodoM_R16,c_yellow,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -194,12 +198,12 @@ function mob_effect() {
 				break;
 			
 			case effect.ratio_recive_decrease:
-				if(unit_effect_tick[|i] > 0)
+				if(unit_effect_tick[|i] >= 0)
 				{
 					if(first)
 					{
 						draw_set_font(GodoM_R16);
-						draw_notify(x,y+16,"방어력 증가",GodoM_R16,c_lime,0.75,16+string_width(unit_score),string_height(unit_score)/4,c_white,0.1,tick_origin/2,step,0,0,id);
+						//draw_notify(x,y+16,"방어력 증가",GodoM_R16,c_lime,0.75,0,0,c_white,0.1,tick_origin/2,step,0,0,id);
 					
 						unit_effect_first[|i] = false;
 					}
@@ -215,7 +219,7 @@ function mob_effect() {
 				break;
 			
 			case effect.damage_dealt_ignore_ratio:	
-				if(unit_effect_tick[|i] > 0)
+				if(unit_effect_tick[|i] >= 0)
 				{
 					mob_damage_add(id,damage.dealt_ignore_ratio,amount/tick_origin);
 				

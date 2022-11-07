@@ -1,7 +1,7 @@
-///@function mob_spawn(x,y,id,density,rotate,range,color,health,damage,speed,accel)
+///@function mob_spawn(x,y,id)
 function mob_spawn(argument0, argument1, argument2) {
 
-	///@param x,y,id,density,rotate,range,color,health,damage,speed,accel
+	///@param x,y,id
 
 	var _ins = instance_create_layer(argument0,argument1,"Mob",Game_Mob);
 	with(_ins)
